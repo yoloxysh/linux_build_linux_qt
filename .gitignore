@@ -1,0 +1,19 @@
+# CMake / IDE build trees
+**/build/
+**/out/build/
+**/.vs/
+**/CMakeFiles/
+**/CMakeCache.txt
+cmake-build-*/
+
+# Compiled app binaries (rebuild on the target host)
+projects/*/out/qt_demo
+
+# 111 MB, over GitHub's 100 MB blob limit. Stored as 45 MB parts.
+toolchain/zynq-sysroot.tgz
+
+# Editor junk
+*.user
+*.swp
+*~
+.DS_Store

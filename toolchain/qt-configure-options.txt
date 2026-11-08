@@ -1,0 +1,39 @@
+# Options used to configure Qt 5.13.2 for the Zynq board.
+# Host: x86_64 Linux. Target: armhf, linuxfb, no OpenGL, no X11.
+# Prefix and sysroot are absolute; keep them at these paths.
+
+-release
+-opensource
+-confirm-license
+-prefix /opt/qt-5.13.2-arm
+-extprefix /opt/qt-5.13.2-arm
+-sysroot /opt/zynq-sysroot
+-xplatform linux-arm-gnueabihf-g++
+-opengl no
+-linuxfb
+-no-xcb
+-no-eglfs
+-no-kms
+-no-opengles3
+-no-gbm
+-no-libinput
+-no-tslib
+-no-icu
+-no-glib
+-no-dbus
+-no-openssl
+-qt-zlib
+-qt-libpng
+-qt-libjpeg
+-qt-freetype
+-qt-harfbuzz
+-qt-pcre
+-no-cups
+-no-gtk
+-no-pch
+-no-pkg-config
+-nomake examples
+-nomake tests
+-no-compile-examples
+-make libs
+-no-sql-sqlite
