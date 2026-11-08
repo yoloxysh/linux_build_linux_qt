@@ -73,4 +73,4 @@ projects/qt_demo qt_demo1 qt_demo5
 
 Qt 源码树（`/opt/src`，约 2.9 GB）和 Qt 构建目录（`/opt/qt-build-5.13.2`）没有放进来。日常交叉编译用上面的前缀就够了。需要重编 Qt 时，再下载 [qt-everywhere-src-5.13.2](https://download.qt.io/archive/qt/5.13/5.13.2/single/qt-everywhere-src-5.13.2.tar.xz)，把 `toolchain/mkspecs/linux-arm-gnueabihf-g++/qmake.conf` 覆盖进源码的 `qtbase/mkspecs/linux-arm-gnueabihf-g++/`，然后按 `qt-configure-options.txt` 配置。
 
-`projects/qt_demo1/out/wqy-microhei.ttc` 是文泉驿微米黑，板上缺中文字体时可以拷到板子的字体目录。
+`projects/qt_demo1/fonts/wqy-microhei.ttc` 是文泉驿微米黑，板上缺中文字体时可以拷到板子的字体目录。
