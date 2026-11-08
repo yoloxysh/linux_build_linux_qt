@@ -8,6 +8,8 @@
 | `/opt/zynq-sysroot` | 板子 rootfs 抽出的 sysroot（libc 2.30、libstdc++） |
 | `/usr/bin/arm-linux-gnueabihf-g++` | Ubuntu GCC 11 交叉编译器 |
 
+下次换机器部署，按 [DEPLOY.md](DEPLOY.md) 做。
+
 ## 另一台 Linux 上部署
 
 需要 root，磁盘大约 400 MB（解压后）。交叉编译器从 apt 安装，所以目标机要能访问 Ubuntu 软件源，并且是较新的 Ubuntu（这套包名是 `gcc-11-arm-linux-gnueabihf`）。
